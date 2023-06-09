@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './ItemCarousel.css'
+import demo from '../../../asset/img/demo.jpg'
 
 const ProductCarousel = (props) => {
     return (
@@ -8,7 +9,7 @@ const ProductCarousel = (props) => {
           <Carousel variant="dark" interval={4000}>
             <Carousel.Item>
             <div className="carousel__image__container">
-                <img className="carousel__image" src={`https://shema-backend.vercel.app/public/${props.item.category}/${props.item.image[0].filename}`} alt="item"/>
+                <img className="carousel__image" src={demo} alt="item" />
             </div>
             </Carousel.Item>  
             <Carousel.Item>

@@ -19,10 +19,10 @@ const Footer = () => {
                         </div>
                         <ul className="fotter__help__links">
                             <li className="help__link">
-                                <a href="/"> Shipping</a>
+                                <a href="/">Tattoo</a>
                             </li>
                             <li className="help__link">
-                                <a href="/">Refund</a>
+                                <a href="/">Custom</a>
                             </li>
                             <li className="help__link">
                                 <a href="/">FAQ</a>
@@ -41,10 +41,10 @@ const Footer = () => {
                                 <LocalPhoneIcon /> <span>+123 4567 890</span>
                             </li>
                             <li className="footer__contact">
-                                <EmailIcon /> <span>shop@shema.com</span>
+                                <EmailIcon /> <span>tattoo@tattoo.com</span>
                             </li>
                             <li className="footer__contact">
-                                <LocationOnIcon /> <span>Addis Ababa, Ethiopia</span>
+                                <LocationOnIcon /> <span>Bangalore, India</span>
                             </li>
                         </ul>
                     </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
                 <div className="fotter__copyright__container">
                     <ul className='nav'>
-                        <li className="footer__copyright">©2022 Shema Ltd. |</li>
+                        <li className="footer__copyright">©2022 Spektra Tatz Ltd. |</li>
                         <li className="footer__terms__condition"> | Terms & Condition |</li>
                         <li className="footer__privacy__policy">| Privacy Policy</li>
                     </ul>
